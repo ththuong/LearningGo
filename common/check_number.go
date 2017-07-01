@@ -28,5 +28,6 @@ func CheckPerfectNumber(x int) bool {
 			aliquotSum += i
 		}
 	}
+	// return whether x is perfect
 	return x == aliquotSum
 }
