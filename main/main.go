@@ -2,21 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/ththuong/LearningGo/common"
+	"github.com/ththuong/learning-go/common"
 )
 // TestDrive
 func main() {
-	x := 8127
-	isPrime := common.CheckPrimeNumber(x)
-	isPerfect := common.CheckPerfectNumber(x)
+	x := 28
 	// print out whether x is prime
-	if isPrime {
+	if common.CheckPrimeNumber(x) {
 		fmt.Printf("%v is prime\n", x)
 	} else {
 		fmt.Printf("%v is not a prime\n", x)
 	}
 	// print out whether x is perfect
-	if isPerfect {
+	if common.CheckPerfectNumber(x) {
 		fmt.Printf("%v is perfect\n", x)
 	} else {
 		fmt.Printf("%v is not perfect\n", x)
