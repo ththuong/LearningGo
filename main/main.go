@@ -6,7 +6,6 @@ import (
 )
 // TestDrive
 func main() {
-	x := 6
 	x := 8127
 	isPrime := common.CheckPrimeNumber(x)
 	isPerfect := common.CheckPerfectNumber(x)
